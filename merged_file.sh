@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#Hello,world!
+#echo Hello,world!
 
-#bye,bye!
+#echo bye,bye!
 
-#Good morning!
+#echo Good morning!
 
-Good evening!
+echo "Good evening!"
 
