@@ -1,7 +1,8 @@
-name: learn-github-actions
+name: Output Message Example
 on: [push]
 jobs:
-  check-bats-version:
-  runs-on: almalinux-latest
+  output_message_job:
+    runs-on: almalinux-latest
     steps:
-      - run: echo "Hello World"
+      - name: Output a Message
+        run: echo "Hello,World"
