@@ -1,0 +1,8 @@
+name: Output Message Example
+on: [push]
+jobs:
+  output_message_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output a Message
+        run: echo "Hello,World"
